@@ -55,7 +55,6 @@ void q_free(queue_t *q)
       free(elementCopy);
     }
 }
-
 /*
   Attempt to insert element at head of queue.
   Return true if successful.
